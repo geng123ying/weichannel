@@ -7,4 +7,13 @@
   </parent>
   <artifactId>weichannel_plugin</artifactId>
   <name>weichannel_plugin</name>
+  <!-- maven support start -->
+	<dependencies>
+		<dependency>
+			<groupId>com.weichannel</groupId>
+			<artifactId>weichannel_core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<!-- maven support ending -->
 </project>

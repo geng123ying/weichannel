@@ -8,4 +8,25 @@
   <artifactId>weichannel_wx</artifactId>
   <name>weichannel_wx</name>
   <description>weichannel project weixin support</description>
+  
+  <!-- maven support start -->
+	<dependencies>
+		<dependency>
+			<groupId>com.weichannel</groupId>
+			<artifactId>weichannel_core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.weichannel</groupId>
+			<artifactId>weichannel_common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.weichannel</groupId>
+			<artifactId>weichannel_plugin</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<!-- maven support ending -->
+	
 </project>
